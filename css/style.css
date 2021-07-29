@@ -811,7 +811,7 @@ body::-webkit-scrollbar-thumb {
          object-fit: cover; }
 
   .collections {
-    margin-top: 500px; }
+    margin-top: 770px; }
     .collections .line,
     .collections .line2,
     .collections .line3,
@@ -846,6 +846,9 @@ body::-webkit-scrollbar-thumb {
     width: 100%; }
   .footer .it-is-footer {
     width: 96%; } }
+@media (max-width: 450px) {
+  .collections {
+    margin-top: 900px; } }
 #owlreporter-preloader .loader-section {
   position: fixed;
   top: 0;
