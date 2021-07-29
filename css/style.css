@@ -332,15 +332,16 @@ body::-webkit-scrollbar-thumb {
         background-color: #ff6a28;
         bottom: 88px;
         left: 211px;
-        -webkit-box-shadow: 0px 15px 10px -15px #111;
-                box-shadow: 0px 15px 10px -15px #111; }
+        -webkit-box-shadow: 0px 20px 10px -15px rgba(0, 0, 0, 0.07);
+                box-shadow: 0px 20px 10px -15px rgba(0, 0, 0, 0.07); }
         .slider__carousel .owl-item .bounce span {
+          font-family: "Bold Futurica";
           text-transform: uppercase;
           color: #fff;
           position: absolute;
           top: 0;
           left: 0;
-          margin: 33px 22px;
+          margin: 33px 18px;
           font-weight: bold;
           text-align: center; }
       .slider__carousel .owl-item .color {
@@ -383,7 +384,8 @@ body::-webkit-scrollbar-thumb {
         .slider__collection-absheron__rectangle .inner {
           width: 522px;
           height: 205px;
-          margin: 126px 103px; }
+          margin: 126px 103px;
+          position: absolute; }
           .slider__collection-absheron__rectangle .inner h1 {
             font-family: "Bold Futurica"; }
   .slider__top {
