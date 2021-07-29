@@ -2,8 +2,8 @@ var owl = $('.owl-carousel');
 owl.owlCarousel({
     loop: true,
     margin: 30,
-    autoplay: false,
-    autoplayTimeout: 2000,
+    autoplay: true,
+    autoplayTimeout: 3000,
     autoplayHoverPause: true,
     nav: true,
     dots: false,
